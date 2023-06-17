@@ -1,0 +1,11 @@
+name = "Filter game"
+version = "1.0.0"
+extra_files = "extras"
+intro = "src/game/intro.lean"
+
+[[worlds]]
+name = "Filter World"
+id = 1
+levels = [
+	"src/game/world1/level1.lean",
+]
